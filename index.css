@@ -1,0 +1,486 @@
+body{
+    margin: 0;
+}
+
+.home-wrapper{
+    height: 100vh;
+    width: 100%;
+ background-image: url(https://i.gifer.com/6wY.gif);
+ background-repeat:no-repeat ;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.home-wrapper .home-content{
+    /* height: 300px;
+    width: 600px; */
+    /* background-color: #ffffff; */
+    color: white;
+    font-family: 'Edu TAS Beginner', cursive;
+
+}
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap');
+  .home-content span{
+    color: cyan;
+  }
+  .home-wrapper .home-content button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
+    border-radius: 25%;
+    margin-left: 45px;
+    margin-top: -50px;
+    background-image:linear-gradient(to left, red,blue);
+  }
+  .home-wrapper .home-content button:hover{
+    transform: scale(1.25);
+    transition: transform ease-out;
+  }
+  .home-wrapper .home-content h1{
+    animation: move1 forwards 2s ease-in 1 ;
+    position: relative;
+
+  }
+  @keyframes move1 {
+    0% {
+        transform: translate(-800px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity:1;
+  }
+}
+.home-wrapper .home-content h5{
+    animation: move2  2s ease-in 1 ;
+    position: relative;
+    /* left: -500px; */
+  }
+  @keyframes move2 {
+    0% {
+        transform: translate(800px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity:1;
+  }
+}
+/* main */
+.main{
+    height: 900px;
+    width: 100%;
+     /* background-image: url(https://media0.giphy.com/media/1195W96ZIyUra8/giphy.gif?cid=ecf05e47rd94cmk02dj1ykldg509wnoyfa6sdg0aj2j2ib4d&ep=v1_gifs_related&rid=giphy.gif&ct=g); */
+     /* background-color: black; */
+     background-image: url(https://i.gifer.com/76YS.gif);
+     background-repeat:no-repeat ;
+     background-size: cover;
+
+}
+nav a{
+    color: white;
+    font-size: 20px;
+   
+}
+nav{
+    position: sticky;
+    top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: coral;
+}
+nav a:nth-child(2){
+    color: coral;
+}
+.picture img{
+    width: 300px;
+    filter: drop-shadow(3px 3px 1px white);
+    margin-left: 200px;
+
+}
+.picture .content{
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left: 70px;
+    top: 0px;
+    color: white;
+}
+.main a{
+  animation: slide  2s ease-in 1 ;
+  position: relative;
+  
+}
+@keyframes slide {
+  0% {
+      transform: translate(800px);
+      opacity: 0;
+  }
+  100% {
+      transform: translate(0);
+      opacity:1;
+}
+}
+.main .content{
+    animation: move1 forwards 2s ease-in 1 ;
+    position: relative;
+
+  }
+  @keyframes move1 {
+    0% {
+        transform: translate(-800px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity:1;
+  }
+}
+.main .skills {
+  color: coral;
+  position: relative;
+  right: -700px;
+  bottom: 400px;
+  height: 330px;
+  width: 500px;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 5%;
+  position: relative;
+  justify-content: space-between;
+  box-shadow: 2px 2px 1px 3px grey;
+  /* box-shadow: 2px 2px 0px 5px navajowhite inset; */
+}
+.skills .icons img{
+  height: 50px;
+  width: 50px;
+  /* position: relative; */
+}
+.skills .icons img:hover{
+  transform: scale(1.25);
+  transition: transform ease-out;
+}
+.icons .i1{
+  position: relative;
+}
+.i1:nth-child(1){
+  top: -10px;
+}
+.i1:nth-child(2){
+  left: 50px;
+}
+.i1:nth-child(3){
+  top: -45px;
+  right: 60px;
+}
+.i1:nth-child(4){
+  left: 80px;
+  top: -45px;
+}
+.i1:nth-child(5){
+  right: 50px;
+  top: -90px;
+}
+.i1:nth-child(6){
+  right: -10px;
+  top: -90px;
+}
+.i1:nth-child(7){
+  
+  top: -230px;
+}
+
+
+
+
+/*  project */
+.pmain{
+  height: 1090px;
+  width: 100%;
+   background-image: url(https://d.furaffinity.net/art/cyber-ogurchik/1631405548/1631405548.cyber-ogurchik_15.gif);
+   background-color: rgb(246, 167, 167);
+   background-repeat:no-repeat ;
+   background-size: cover;
+  margin-top: -20px;
+}
+.pmain h1{
+  text-align: center;
+  color: aliceblue;
+}
+.border1{
+  height: 500px;
+  width: 50%;
+  background-image: linear-gradient(red,blue,gray);
+}
+.border2{
+  height: 480px;
+  width: 97%;
+  background-image: linear-gradient(grey,red);
+  position: relative;
+  top: 10px;
+}
+.border2 img{
+  height: 460px;
+  width: 720px;
+  position: relative;
+  top: 10px;
+}
+.pmain .phead{
+  text-align: center;
+  /* position: sticky; */
+}
+.border3{
+  height: 500px;
+  width: 50%;
+  background-image: linear-gradient(grey,blue,red);
+  position: relative;
+  left: 760px;
+}
+.border4{
+  height: 480px;
+  width: 97%;
+  background-image: linear-gradient(pink,gray);
+  position: relative;
+  top: 10px;
+  left: 22px;
+}
+.border4 img{
+  height: 460px;
+  width: 720px;
+  position: relative;
+  top: 10px;
+  left: 22px;
+}
+.pmain .pcontent1{
+  height: 300px;
+  width: 450px;
+  position: relative;
+  border: 1px white solid;
+  left: 1000px;
+  top: -900px;
+  text-align: center;
+  justify-content: center;
+
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap'); */
+.pmain .pcontent1 h1{
+  font-family: 'Edu TAS Beginner', cursive;
+  color: deepskyblue;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap'); */
+.pmain .pcontent1 p{
+  font-family: 'Ephesis', cursive;
+  color: wheat;
+}
+.pcontent1 button:hover{
+  background-color: lightblue;
+  transform: scale(1.25);
+  transition: transform ease-out;
+}
+.pmain .pcontent2{
+  height: 300px;
+  width: 450px;
+  position: relative;
+  border: 1px white solid;
+  left: 100px;
+  top: -700px;
+  text-align: center;
+  justify-content: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap');
+.pmain .pcontent1 h1{
+  /* font-family: 'Edu TAS Beginner', cursive; */
+  /* color: deepskyblue; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.pmain .pcontent2 p{
+  /* font-family: 'Ephesis', cursive; */
+  /* color: lightgreen; */
+}
+.pcontent2 button:hover{
+  background-color: lightblue;
+  transform: scale(1.25);
+  transition: transform ease-out;
+}
+.pmain .pcontent2{
+  animation: move1 forwards 2s ease-in 1 ;
+  position: relative;
+  color: cyan;
+
+}
+@keyframes move1 {
+  0% {
+      transform: translate(-800px);
+      opacity: 0;
+  }
+  100% {
+      transform: translate(0);
+      opacity:1;
+}
+}
+.pmain .pcontent1{
+  animation: slide  2s ease-in 1 ;
+  position: relative;
+  
+}
+@keyframes slide {
+  0% {
+      transform: translate(800px);
+      opacity: 0;
+  }
+  100% {
+      transform: translate(0);
+      opacity:1;
+}
+}
+.border4 img:hover{
+  background-color: lightblue;
+  transform: scale(1.05);
+  transition: transform ease-out;
+}
+.border2 img:hover{
+  background-color: lightblue;
+  transform: scale(1.05);
+  transition: transform ease-out;
+}
+/* @media  screen and (max-width:550px) {
+  nav a{
+    font-size: 15px;
+  }
+  .pic img{
+
+  }
+  
+} */
+html{
+  scroll-behavior: smooth;
+}
+form{
+  width: 500px;
+  border: 5px solid gray;
+  border-radius: 7px 7px 7px 7px ;
+  height: 400px;
+  position: relative;
+  left: 450px;
+  /* background-color: #328f8a; */
+  background-image: url(https://i.stack.imgur.com/Tvd5g.gif);
+  top: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.uname{
+  /* background-color: cyan; */
+}
+.textarea{
+  resize: none;
+  text-align: justify;
+
+}
+.conte{
+  height: 850px;
+  width: 100%;
+  /* background-color: pink; */
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.conte h1{
+  color: navajowhite;
+  font-size: 30px;
+  /* height: 100px; */
+} 
+.conte .uname label{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+}
+.conte .uname input{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 20px;
+  background-color: transparent;
+}
+.conte .email label{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+  top: 20px;
+}
+.conte .email input{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 110px;
+  background-color: transparent;
+  top: 20px;
+}
+
+.conte .comment textarea{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 20px;
+  background-color: transparent;
+  top: 40px;
+}
+.conte .comment label{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+  top: -50px;
+}
+.conte .sub button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 70px;
+  width: 140px;
+  font-size: 20px;
+  border-radius: 10px 10px 10px 10px ;
+  position: relative;
+  top: 60px;
+  left: 150px;
+  background-color: transparent;
+  color: whitesmoke;
+}
+.conte .uname input:hover{
+  background-color: rgb(154, 230, 255);
+  
+}
+.conte .email input:hover{
+  background-color: rgb(154, 230, 255);
+  
+}
+.conte .comment textarea:hover{
+  background-color: rgb(154, 230, 255);
+  
+}
+.conte .sub button:hover{
+  transform: scale(1.25);
+  transition: transform ease-out;
+  border-radius: 50%;
+  background-color: peru;
+}
+.conte form{
+  animation: slide8 10s ease-in-out;
+}
+@keyframes slide8 {
+  from{
+      transform: scale(0);
+      opacity: 0;
+     } 
+     to{
+      transform: translate(5);
+      opacity: 1;
+    
+     }
+
+}
